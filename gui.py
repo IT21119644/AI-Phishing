@@ -8,7 +8,7 @@ import numpy as np
 import subprocess
 from flask import Response
 import json
-
+# NEW UPDATES
 def clean_string(s):
     chars_to_remove = ",'.\""
     cleaned_string = s.rstrip(chars_to_remove)
